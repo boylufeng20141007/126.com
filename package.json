@@ -1,0 +1,24 @@
+{
+  "name": "126.com",
+  "version": "1.0.0",
+  "description": "126.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boylufeng20141007/126.com.git"
+  },
+  "keywords": [
+    "126.com",
+    "lux",
+    "lu"
+  ],
+  "author": "lux.lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boylufeng20141007/126.com/issues"
+  },
+  "homepage": "https://github.com/boylufeng20141007/126.com#readme"
+}
