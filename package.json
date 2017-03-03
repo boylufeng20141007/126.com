@@ -4,7 +4,8 @@
   "description": "126.com",
   "main": "index.js",
   "scripts": {
-    "test": "dev"
+    "dev": "node --harmony app.js",
+    "pm2": "pm2 start app.js --name koa --node-args='--harmony-generators' --watch"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,12 @@
     "lu"
   ],
   "author": "lux.lu",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/boylufeng20141007/126.com/issues"
   },
-  "homepage": "https://github.com/boylufeng20141007/126.com#readme"
+  "homepage": "https://github.com/boylufeng20141007/126.com#readme",
+  "dependencies": {
+    "koa": "^2.0.1"
+  }
 }
